@@ -117,9 +117,9 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "UIKit" , "WSLSFramework"
+  spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-
+  spec.vendored_frameworks = 'Framework/WSLSFramework.framework'
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
