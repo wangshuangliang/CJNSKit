@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
 
   spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.vendored_frameworks = 'WSLSFramework'
+  #spec.vendored_frameworks = 'WSLSFramework.framework'
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
